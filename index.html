@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Como funciona</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Transforme a troca de presentes em um momento inesquecível!
+                <strong class="titulo-destaque"> Sorteie agora seu Amigo Secreto e divirta-se com a magia da surpresa!
+            </strong></h1>
+            <p class="apresentacao__conteudo__texto">Nada melhor do que a emoção de presentear e ser presenteado de forma divertida! 
+                Com o sorteio do Amigo Secreto, você organiza tudo de maneira fácil e prática, garantindo surpresas e sorrisos para todos. Chame seus amigos e comece agora! </p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Digite os nomes dos participantes</h2>
+            <div class="input-container">
+                <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
+                <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
+            </div>
+                <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
+                <ul id="resultado" class="result-list" aria-live="polite"></ul>
+                <button class="button-add2" onclick="sortearAmigo()">Sortear</button>
+            </div>
+        </section>
+        <img src="./assets/imagem.png" alt="Foto de presentes do Amigo Secreto" class="imagem">
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Stéphanie Alves.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
