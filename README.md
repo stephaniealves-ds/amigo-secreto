@@ -14,7 +14,7 @@ Este projeto não possui dependências externas e pode ser executado diretamente
 1. **Clone o repositório**:
 
     ```bash
-    git clone https://github.com/seu-usuario/amigo-secreto.git
+    git clone https://github.com/stephaniealves-ds/amigo-secreto.git
     ```
 
 2. **Navegue até o diretório do projeto**:
