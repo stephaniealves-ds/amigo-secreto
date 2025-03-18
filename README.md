@@ -23,6 +23,12 @@ Este projeto não possui dependências externas e pode ser executado diretamente
     cd amigo-secreto
     ```
 
+**Observação**:
+Caso queira, também é possível acessar a aplicação por meio do GitHub Pages.
+```bash
+    https://stephaniealves-ds.github.io/amigo-secreto/
+```
+
 ## Dependências
 
 - **Nenhuma**: O projeto não depende de bibliotecas externas. Ele usa apenas recursos nativos do JavaScript (DOM, eventos) e HTML/CSS básicos.
