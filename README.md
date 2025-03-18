@@ -46,7 +46,7 @@ O projeto contém os seguintes arquivos:
 
 - `index.html`: O arquivo principal com a estrutura HTML.
 - `style.css`: Arquivo de estilo simples para a interface.
-- `script.js`: O arquivo JavaScript com a lógica do "Amigo Secreto".
+- `app.js`: O arquivo JavaScript com a lógica do "Amigo Secreto".
 
 ## Como usar
 
